@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GameScoreApp-Metelov</string>
+    <string name="button_exit_app_value">X</string>
+    <string name="button_list_of_winners_value">List of winners</string>
+    <string name="button_start_game_value">Start the Game</string>
+    <string name="label_timer_input">Timer</string>
+    <string name="tv_set_timer_heading_text">SET NEW GAME\'s TIMER</string>
 </resources>
