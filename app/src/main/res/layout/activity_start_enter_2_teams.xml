@@ -8,11 +8,10 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnExitApp"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/exit_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/button_style_no"
         android:text="@string/button_exit_app_value"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -24,10 +23,11 @@
         android:id="@+id/btnListOfWinners"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:background="@color/purple_500"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/button_style_purple"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="@string/button_list_of_winners_value"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -35,10 +35,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/setTimerHeading"
+        android:id="@+id/tvSetTimerHeadText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="12dp"
         android:text="@string/tv_set_timer_heading_text"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -60,12 +60,15 @@
         app:layout_constraintTop_toBottomOf="@id/btnListOfWinners">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etHours"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:width="90dp"
-            android:hint="Hours"
+            android:width="72dp"
+            android:hint="@string/et_hours_hint"
             android:inputType="numberDecimal"
             android:maxLength="1"
+            android:text=""
+            android:textAlignment="viewEnd"
             app:errorEnabled="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -83,12 +86,15 @@
         app:layout_constraintTop_toBottomOf="@id/btnListOfWinners">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etMinutes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:width="90dp"
-            android:hint="Minutes"
+            android:width="72dp"
+            android:hint="@string/et_minutes_hint"
             android:inputType="numberDecimal"
             android:maxLength="2"
+            android:text=""
+            android:textAlignment="viewEnd"
             app:errorEnabled="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -106,12 +112,15 @@
         app:layout_constraintTop_toBottomOf="@id/btnListOfWinners">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etSeconds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:width="90dp"
-            android:hint="Seconds"
+            android:width="72dp"
+            android:hint="@string/et_seconds_hint"
             android:inputType="numberDecimal"
             android:maxLength="2"
+            android:text=""
+            android:textAlignment="viewEnd"
             app:errorEnabled="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -127,7 +136,7 @@
         android:id="@+id/setTeamsNamesId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SET TEAM's NAMES"
+        android:text="@string/tv_set_team_s_names_head_text"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -147,12 +156,14 @@
         app:layout_constraintTop_toBottomOf="@id/setTeamsNamesId">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTeams1name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:width="90dp"
-            android:hint="First team's name"
+            android:hint="@string/et_first_team_s_name_hint"
             android:inputType="text"
             android:maxLength="20"
+            android:text=""
             app:errorEnabled="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -168,13 +179,14 @@
         app:layout_constraintTop_toBottomOf="@id/teams1name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTeams2name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:width="90dp"
-            android:hint="Second team's name"
+            android:hint="@string/et_second_team_s_name_hint"
             android:inputType="text"
             android:maxLength="20"
-
+            android:text=""
             app:errorEnabled="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -184,7 +196,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        android:background="@color/purple_500"
+        android:background="@drawable/button_style_purple"
+        android:padding="12dp"
         android:text="@string/button_start_game_value"
         android:textColor="@color/white"
         android:textSize="36sp"

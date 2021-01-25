@@ -8,15 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GameScoreAppMetelov">
-        <activity android:name=".ListOfWinnersActivity"
+        android:theme="@style/Theme.GameScoreAppMetelov"
+        android:fullBackupContent="">
+        <activity
+            android:name=".ListOfWinnersActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".WinnerActivity"
+        <activity
+            android:name=".WinnerActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ScoreActivity"
+        <activity
+            android:name=".ScoreActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".StartEnter2TeamsActivity"
-            android:screenOrientation="portrait" >
+        <activity
+            android:name=".StartEnter2TeamsActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
