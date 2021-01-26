@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- winners_recycler_item -->
+    <dimen name="tvNameWinnerTeam_textSize">24sp</dimen>
+
+    <dimen name="tvScore_layout_marginVertical">4dp</dimen>
+    <dimen name="tvScore_textSize">18sp</dimen>
+
+    <!-- activity_winner -->
+    <dimen name="btnBackHome_layout_width">72dp</dimen>
+    <dimen name="btnBackHome_layout_height">72dp</dimen>
+    <dimen name="btnBackHome_layout_margin">16dp</dimen>
+    <dimen name="btnBackHome_padding">24dp</dimen>
+
+    <dimen name="tvWinnerTeamName_layout_marginTop">40dp</dimen>
+    <dimen name="tvWinnerTeamName_textSize">24sp</dimen>
+
+    <dimen name="tvWonOrDraw_layout_marginTop">20dp</dimen>
+    <dimen name="tvWonOrDraw_textSize">72sp</dimen>
+
+    <dimen name="tvNameOfTeam1_layout_marginTop">20dp</dimen>
+    <dimen name="tvNameOfTeam1_textSize">24sp</dimen>
+
+    <dimen name="tvScoreOfTeam1_textSize">72sp</dimen>
+
+    <dimen name="tvDivider_textSize">72sp</dimen>
+
+    <dimen name="tvScoreOfTeam2_textSize">72sp</dimen>
+
+    <dimen name="tvNameOfTeam2_textSize">24sp</dimen>
+
+    <!-- activity_start_enter_2_teams -->
+    <dimen name="btnExitApp_layout_width">48dp</dimen>
+    <dimen name="btnExitApp_layout_height">48dp</dimen>
+    <dimen name="btnExitApp_layout_marginStart">4dp</dimen>
+    <dimen name="btnExitApp_textSize">24sp</dimen>
+
+    <dimen name="btnListOfWinners_layout_marginTop">8dp</dimen>
+    <dimen name="btnListOfWinners_layout_marginEnd">4dp</dimen>
+    <dimen name="btnListOfWinners_paddingLeft">20dp</dimen>
+    <dimen name="btnListOfWinners_paddingRight">20dp</dimen>
+    <dimen name="btnListOfWinners_textSize">16sp</dimen>
+
+    <dimen name="tvSetTimerHeadText_layout_marginTop">12dp</dimen>
+    <dimen name="tvSetTimerHeadText_textSize">24sp</dimen>
+
+    <dimen name="etHours_width">72dp</dimen>
+
+    <dimen name="etMinutes_width">72dp</dimen>
+
+    <dimen name="etSeconds_width">72dp</dimen>
+
+    <dimen name="glnCenter_layout_height">1dp</dimen>
+    <dimen name="glnCenter_layout_constraintGuide_percent">0.35</dimen>
+
+    <dimen name="setTeamsNamesId_textSize">24sp</dimen>
+
+    <dimen name="teams1name_layout_margin">12dp</dimen>
+
+    <dimen name="etTeams1name_width">90dp</dimen>
+
+    <dimen name="teams2name_layout_margin">12dp</dimen>
+
+    <dimen name="etTeams2name_width">90dp</dimen>
+
+    <dimen name="btnStartGame_layout_margin">24dp</dimen>
+    <dimen name="btnStartGame_padding">12dp</dimen>
+    <dimen name="btnStartGame_textSize">36sp</dimen>
+
+    <!-- winners_recycler_item -->
+    <dimen name="btnCancel_layout_margin">6dp</dimen>
+    <dimen name="btnCancel_padding">12dp</dimen>
+    <dimen name="btnCancel_textSize">24sp</dimen>
+
+    <dimen name="timer_layout_marginTop">20dp</dimen>
+
+    <dimen name="tvNameOfTeam1_layout_marginTop2">20dp</dimen>
+    <dimen name="tvNameOfTeam1_textSize2">24sp</dimen>
+
+    <dimen name="tvScoreOfTeam1_textSize2">72sp</dimen>
+
+    <dimen name="tvDivider_textSize2">72sp</dimen>
+
+    <dimen name="tvScoreOfTeam2_textSize2">72sp</dimen>
+
+    <dimen name="tvNameOfTeam2_textSize2">24sp</dimen>
+
+    <dimen name="btnScores1_layout_margin">12dp</dimen>
+    <dimen name="btnScores1_padding">40dp</dimen>
+    <dimen name="btnScores1_textSize">24sp</dimen>
+
+    <dimen name="btnScores2_layout_margin">12dp</dimen>
+    <dimen name="btnScores2_padding">40dp</dimen>
+    <dimen name="btnScores2_textSize">24sp</dimen>
+
+    <!-- winners_recycler_item -->
+    <dimen name="btnClearList_layout_margin">8dp</dimen>
+    <dimen name="btnClearList_padding">12dp</dimen>
+    <dimen name="btnClearList_textSize">24sp</dimen>
+
+    <dimen name="rvWinnersList_layout_height">0dp</dimen>
+    <dimen name="rvWinnersList_layout_marginTop">20dp</dimen>
+
+    <dimen name="btnCloseList_layout_margin">8dp</dimen>
+    <dimen name="btnCloseList_textSize">24sp</dimen>
+</resources>

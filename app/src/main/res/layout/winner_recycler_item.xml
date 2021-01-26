@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/purple_700"
-        android:textSize="24sp"
+        android:textSize="@dimen/tvNameWinnerTeam_textSize"
         tools:text="DeafaultTeamName" />
 
     <TextView
@@ -27,9 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:layout_marginVertical="4dp"
+        android:layout_marginVertical="@dimen/tvScore_layout_marginVertical"
         android:textColor="@color/purple_200"
-        android:textSize="18sp"
+        android:textSize="@dimen/tvScore_textSize"
         tools:text="Score: 42" />
 
 </LinearLayout>

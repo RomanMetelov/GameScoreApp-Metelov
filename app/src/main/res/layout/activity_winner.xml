@@ -13,12 +13,12 @@
 
     <ImageButton
         android:id="@+id/btnBackHome"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_margin="16dp"
+        android:layout_width="@dimen/btnBackHome_layout_width"
+        android:layout_height="@dimen/btnBackHome_layout_height"
+        android:layout_margin="@dimen/btnBackHome_layout_margin"
         android:background="@drawable/custom_image_home_button"
         android:contentDescription="@string/button_back"
-        android:padding="24dp"
+        android:padding="@dimen/btnBackHome_padding"
         android:src="@drawable/icons8_home_50"
         app:layout_constraintStart_toStartOf="@+id/viewKonfetti"
         app:layout_constraintTop_toTopOf="@+id/viewKonfetti" />
@@ -39,11 +39,11 @@
         android:id="@+id/tvWinnerTeamName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/tvWinnerTeamName_layout_marginTop"
         android:text="@string/default_winner_name"
         android:textAlignment="center"
         android:textColor="@color/winner_team"
-        android:textSize="24sp"
+        android:textSize="@dimen/tvWinnerTeamName_textSize"
         app:layout_constraintBottom_toTopOf="@id/tvWonOrDraw"
         app:layout_constraintTop_toBottomOf="@+id/btnShareResults" />
 
@@ -51,11 +51,11 @@
         android:id="@+id/tvWonOrDraw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/tvWonOrDraw_layout_marginTop"
         android:text="@string/tv_won"
         android:textAlignment="center"
         android:textColor="@color/winner_team"
-        android:textSize="72sp"
+        android:textSize="@dimen/tvWonOrDraw_textSize"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/tvWinnerTeamName" />
 
@@ -63,11 +63,11 @@
         android:id="@+id/tvNameOfTeam1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/tvNameOfTeam1_layout_marginTop"
         android:text="@string/tv_name_of_the_first_team"
         android:textAlignment="center"
         android:textColor="@color/scores_team_1_button"
-        android:textSize="24sp"
+        android:textSize="@dimen/tvNameOfTeam1_textSize"
         app:layout_constraintBottom_toTopOf="@id/tvDivider"
         app:layout_constraintTop_toBottomOf="@+id/tvWonOrDraw" />
 
@@ -78,7 +78,7 @@
         android:text="@string/tv_score_of_the_team_1"
         android:textAlignment="center"
         android:textColor="@color/scores_team_1_button"
-        android:textSize="72sp"
+        android:textSize="@dimen/tvScoreOfTeam1_textSize"
         app:layout_constraintBottom_toTopOf="@id/tvDivider"
         app:layout_constraintTop_toBottomOf="@id/tvNameOfTeam1" />
 
@@ -89,7 +89,7 @@
         android:text="@string/tv_divider"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="72sp"
+        android:textSize="@dimen/tvDivider_textSize"
         app:layout_constraintBottom_toBottomOf="@+id/viewKonfetti"
         app:layout_constraintTop_toBottomOf="@id/tvWonOrDraw" />
 
@@ -100,7 +100,7 @@
         android:text="@string/tv_score_of_the_team_2"
         android:textAlignment="center"
         android:textColor="@color/scores_team_2_button"
-        android:textSize="72sp"
+        android:textSize="@dimen/tvScoreOfTeam2_textSize"
         app:layout_constraintBottom_toTopOf="@id/tvNameOfTeam2"
         app:layout_constraintTop_toBottomOf="@id/tvDivider" />
 
@@ -111,9 +111,8 @@
         android:text="@string/tv_name_of_the_second_team"
         android:textAlignment="center"
         android:textColor="@color/scores_team_2_button"
-        android:textSize="24sp"
+        android:textSize="@dimen/tvNameOfTeam2_textSize"
         app:layout_constraintBottom_toBottomOf="@+id/viewKonfetti"
         app:layout_constraintTop_toBottomOf="@id/tvDivider" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,20 +10,20 @@
         android:id="@+id/btnClearList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/btnClearList_layout_margin"
         android:background="@drawable/button_style_no"
-        android:padding="12dp"
+        android:padding="@dimen/btnClearList_padding"
         android:text="@string/button_clear_winners_list"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/btnClearList_textSize"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvWinnersList"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="@dimen/rvWinnersList_layout_height"
+        android:layout_marginTop="@dimen/rvWinnersList_layout_marginTop"
         app:layout_constraintBottom_toTopOf="@+id/btnCloseList"
         app:layout_constraintTop_toBottomOf="@+id/btnClearList" />
 
@@ -31,11 +31,11 @@
         android:id="@+id/btnCloseList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/btnCloseList_layout_margin"
         android:background="@drawable/button_style_purple"
         android:text="@string/button_close_winners_list"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/btnCloseList_textSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
